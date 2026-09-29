@@ -6,7 +6,7 @@ import subprocess
 GRAPH_API_VERSION = 'v21.0'
 GRAPH_URL = f'https://graph.facebook.com/{GRAPH_API_VERSION}'
 
-def upload_reel(video_path, caption="", page_token=None, ig_account_id=None):
+def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, share_to_feed=False):
     page_token = page_token or os.environ.get('FB_PAGE_ACCESS_TOKEN', '')
     ig_account_id = ig_account_id or os.environ.get('INSTAGRAM_ACCOUNT_ID', '')
 
@@ -41,7 +41,7 @@ def upload_reel(video_path, caption="", page_token=None, ig_account_id=None):
         'media_type': 'REELS',
         'upload_type': 'resumable',
         'caption': caption,
-        'share_to_feed': 'true',
+        'share_to_feed': 'true' if share_to_feed else 'false',  # 'false' ensures posting ONLY to Reels tab
         'access_token': page_token
     }
     
