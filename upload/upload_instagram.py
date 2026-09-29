@@ -36,17 +36,21 @@ def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, sha
         file_size = os.path.getsize(video_path)
 
     # Step 1: Initialize Resumable Media Container
+    feed_flag = 'true' if share_to_feed else 'false'
     init_url = f"{GRAPH_URL}/{ig_account_id}/media"
     init_data = {
         'media_type': 'REELS',
         'upload_type': 'resumable',
         'caption': caption,
-        'share_to_feed': 'true' if share_to_feed else 'false',  # 'false' ensures posting ONLY to Reels tab
+        'share_to_feed': feed_flag,  # 'false' ensures posting ONLY to Reels tab
         'access_token': page_token
+    }
+    init_params = {
+        'share_to_feed': feed_flag
     }
     
     try:
-        resp = requests.post(init_url, data=init_data, timeout=30)
+        resp = requests.post(init_url, params=init_params, data=init_data, timeout=30)
     except Exception as e:
         print(f"  [ERROR] Container init request failed: {e}")
         return {'status': 'failed', 'platform': 'instagram'}
