@@ -272,11 +272,17 @@ def publish(video_path, publish_to_facebook=True, publish_to_instagram=False):
         from upload.upload_instagram import upload_reel as ig_reel, upload_story as ig_story
         ig_account_id = os.environ.get('INSTAGRAM_ACCOUNT_ID', '').strip()
         single_page_token = os.environ.get('FB_PAGE_ACCESS_TOKEN', '').strip()
+        if not single_page_token and 'pages' in locals() and pages:
+            single_page_token = pages[0].get('token', '')
 
-        if ig_account_id:
+        if ig_account_id and single_page_token:
             print(f"\n[IG] Publishing to Instagram: {ig_account_id}")
             results.append(ig_reel(video_path, caption, page_token=single_page_token, ig_account_id=ig_account_id))
             results.append(ig_story(video_path, page_token=single_page_token, ig_account_id=ig_account_id))
+        elif not ig_account_id:
+            print("\n[SKIP] INSTAGRAM_ACCOUNT_ID not configured.")
+        elif not single_page_token:
+            print("\n[SKIP] Facebook Page access token not found for Instagram.")
 
     return results
 
