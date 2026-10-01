@@ -429,5 +429,28 @@
         "media_id": "18071770727743718"
       }
     ]
+  },
+  {
+    "filename": "Girl_playing_electric_guitar_20260926064258.mp4",
+    "results": [
+      {
+        "status": "failed",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "error": "{\"error\":{\"message\":\"Confirm your identity before you can publish as this Page. Open the Facebook app on your phone and follow the instructions.\",\"type\":\"OAuthException\",\"code\":368,\"error_data\":{\"sentry_block_data\":\"AeuziVX2k1inK1WpzgJvW8uLwrTKuQeDMsR3XhR7bCoP9vcwhPBe53Irq8bNMlErZqTtFudiaFI4VYhC0-OsEpBPNZ1fJqWfVKFal8lx6Sd2uAhM6O-0rZGadnBktIHOEpPA1BqhIFcsW4DkCQC-uw0mWJgo4VNkGudGjHzGdqbAcIZyMLO8lVYLOfxuacHUJQca80uLvPSr-XoBGOd_BsrSEbB-RbhpfLVrSsb2AKiFrZCZJepxv5-855dFnKfUYfPHPELspUBepVAhI3SxbQ4VNwxKcbbticD6_SRBnfGD_r77DSWEwfADYtc73W9J3uKDcFiI00M9fFLuITvO-ONxaJS4T6QcBfJ2Ltq-8Yk\",\"help_center_id\":0,\"is_silent\":false},\"error_subcode\":4854002,\"error_user_msg\":\"\",\"fbtrace_id\":\"Amuoip46qpqpkloZjrUjEg0\"}}",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18103788335203980"
+      }
+    ]
   }
 ]
