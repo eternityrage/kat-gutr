@@ -35,11 +35,11 @@ def process_video(input_path, output_dir='Processed_Videos'):
     print(f"[PROCESS] Processing video: {filename}...")
 
     w, h = get_video_dimensions(input_path)
-    # Remove Google Gemini watermark from the bottom-right corner
-    delogo_w = max(40, int(w * 0.13))
-    delogo_h = max(40, int(h * 0.09))
-    delogo_x = min(w - delogo_w - 2, int(w * 0.77))
-    delogo_y = min(h - delogo_h - 2, int(h * 0.87))
+    # Remove compound Google Gemini image and Google Flow video watermarks from bottom-right corner
+    delogo_w = max(40, int(w * 0.20))
+    delogo_h = max(40, int(h * 0.11))
+    delogo_x = min(w - delogo_w - 8, int(w * 0.785))
+    delogo_y = min(h - delogo_h - 10, int(h * 0.85))
 
     vf_filters = [
         f"delogo=x={delogo_x}:y={delogo_y}:w={delogo_w}:h={delogo_h}",
