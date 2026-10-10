@@ -1025,5 +1025,29 @@
         "media_id": "18088601984275942"
       }
     ]
+  },
+  {
+    "filename": "Young_woman_playing_electric_guitar_20261004063136.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1797034804879222",
+        "comment_id": "1797034804879222_2012246909459412",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18334724509302817"
+      }
+    ]
   }
 ]
