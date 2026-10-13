@@ -1265,5 +1265,29 @@
         "media_id": "17907566049664733"
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261012140125_6.mp4",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1371242272736053",
+        "comment_id": "1371242272736053_1079695374837901",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18095829770653055"
+      }
+    ]
   }
 ]
