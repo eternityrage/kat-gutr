@@ -6,7 +6,9 @@ import subprocess
 GRAPH_API_VERSION = 'v21.0'
 GRAPH_URL = f'https://graph.facebook.com/{GRAPH_API_VERSION}'
 
-def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, share_to_feed=False):
+def upload_reel(video_path, caption="", page_token=None, ig_account_id=None, share_to_feed=False, title=None):
+    if title and title.strip() and title.strip() not in caption:
+        caption = f"{title.strip()}\n\n{caption}".strip()
     page_token = page_token or os.environ.get('FB_PAGE_ACCESS_TOKEN', '')
     ig_account_id = ig_account_id or os.environ.get('INSTAGRAM_ACCOUNT_ID', '')
 

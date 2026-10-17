@@ -1,4 +1,6 @@
 .env
+.env.*
+*.env
 __pycache__/
 *.pyc
 Videos/
@@ -6,3 +8,5 @@ Processed_Videos/
 *.mp4
 *.mov
 *.avi
+token_*.json
+*token*.json

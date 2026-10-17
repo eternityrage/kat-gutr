@@ -1,5 +1,6 @@
 import os
 import sys
+import datetime
 from dotenv import load_dotenv
 
 if hasattr(sys.stdout, 'reconfigure'):
@@ -31,6 +32,16 @@ def check_secrets():
 
     if os.environ.get('INSTAGRAM_ACCOUNT_ID'):
         print(f"[OK] Instagram publishing enabled: {os.environ.get('INSTAGRAM_ACCOUNT_ID')}")
+
+    has_yt = bool(
+        os.environ.get('YT_REFRESH_TOKEN')
+        or os.environ.get('YOUTUBE_REFRESH_TOKEN')
+        or os.path.exists('token_kathy guitar.json')
+    )
+    if has_yt:
+        print("[OK] YouTube Shorts publishing enabled (Schedule: Mon, Wed, Fri, Sun only)")
+    else:
+        print("[INFO] YouTube credentials not detected. YouTube publishing will be skipped.")
 
     print("[OK] Environment validation successful.\n")
 
@@ -72,15 +83,20 @@ def main():
         return
 
     # Step 4: Publish to platforms
-    print("\n--- Step 3: Publishing to Facebook (Reels + Pinned Comments + Stories) ---")
+    print("\n--- Step 3: Publishing to Facebook, Instagram & YouTube ---")
     publish_ig = bool(os.environ.get('INSTAGRAM_ACCOUNT_ID'))
-    results = publish(processed_path, publish_to_facebook=True, publish_to_instagram=publish_ig)
+    results = publish(processed_path, publish_to_facebook=True, publish_to_instagram=publish_ig, publish_to_youtube=True)
 
     # Record
+    now_iso = datetime.datetime.now(datetime.timezone.utc).isoformat()
     entry = {
         'filename': filename,
+        'published_at': now_iso,
         'results': results
     }
+    if any(r.get('platform') == 'youtube' and r.get('status') == 'success' for r in results):
+        entry['youtube_published_at'] = now_iso
+
     published.append(entry)
     save_published(published)
 
@@ -94,9 +110,10 @@ def main():
         status = r.get('status', 'unknown')
         platform = r.get('platform', 'unknown')
         target = r.get('page_name') or r.get('page_id') or platform
-        vid = r.get('video_id') or r.get('media_id', '')
+        vid = r.get('video_id') or r.get('media_id', '') or r.get('id', '')
         comment_id = r.get('comment_id', '')
-        print(f"    - [{platform}] Target: {target} -> Status: {status} (Media ID: {vid}, Comment ID: {comment_id})")
+        reason = f" ({r.get('reason')})" if r.get('reason') else ""
+        print(f"    - [{platform}] Target: {target} -> Status: {status}{reason} (Media ID: {vid}, Comment ID: {comment_id})")
     print("=" * 60)
 
 if __name__ == '__main__':

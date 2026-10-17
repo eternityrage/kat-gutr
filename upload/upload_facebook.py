@@ -66,7 +66,7 @@ def post_pinned_comment(video_id, comment_text, page_token, max_retries=3, delay
 
     return comment_id
 
-def upload_reel(video_path, caption="", page_id=None, page_token=None, pin_comment=True, comment_text=None):
+def upload_reel(video_path, caption="", page_id=None, page_token=None, pin_comment=True, comment_text=None, title=None):
     page_id = page_id or os.environ.get('FB_PAGE_ID', '')
     page_token = page_token or os.environ.get('FB_PAGE_ACCESS_TOKEN', '')
 
@@ -125,6 +125,8 @@ def upload_reel(video_path, caption="", page_id=None, page_token=None, pin_comme
         'description': caption,
         'video_state': 'PUBLISHED'
     }
+    if title:
+        publish_data['title'] = title
     resp = requests.post(publish_url, data=publish_data, timeout=30)
     if resp.status_code != 200:
         print(f"  [ERROR] Publish failed: {resp.text}")
