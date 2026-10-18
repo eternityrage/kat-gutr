@@ -1529,5 +1529,43 @@
         "media_id": "17904928554352413"
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20260926064255.mp4",
+    "published_at": "2026-10-18T08:37:11.609340+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1467309088634545",
+        "comment_id": "1467309088634545_1815737239562202",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18098681357425877"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18019422782736925"
+      },
+      {
+        "status": "success",
+        "id": "Yge9_9O-naE",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/Yge9_9O-naE",
+        "title": "**TITLE:** \ud83e\udd18 Kathy BLAZES a Heavy Crunch Riff Storm! \ud83c\udfb8\ud83d\udd25 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-18T08:37:11.609340+00:00"
   }
 ]
