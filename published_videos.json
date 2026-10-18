@@ -1602,5 +1602,40 @@
         "reason": "YouTube has ALREADY published today (Sunday, 2026-10-18). Policy: Maximum once a day on allowed days."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261012140125_5.mp4",
+    "published_at": "2026-10-18T22:14:06.007519+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "967611303074653",
+        "comment_id": "967611303074653_1375917884614155",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17897087079409817"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18131009716808983"
+      },
+      {
+        "status": "skipped",
+        "platform": "youtube",
+        "reason": "YouTube has ALREADY published today (Sunday, 2026-10-18). Policy: Maximum once a day on allowed days."
+      }
+    ]
   }
 ]
