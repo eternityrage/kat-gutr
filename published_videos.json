@@ -1637,5 +1637,43 @@
         "reason": "YouTube has ALREADY published today (Sunday, 2026-10-18). Policy: Maximum once a day on allowed days."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261012140125_2.mp4",
+    "published_at": "2026-10-19T09:39:37.305318+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1816357376222558",
+        "comment_id": "1816357376222558_1125139340473411",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17895713790677955"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18632763364047315"
+      },
+      {
+        "status": "success",
+        "id": "Glq2ilCjcqE",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/Glq2ilCjcqE",
+        "title": "\ud83e\udd18 Kathy Slams Metal Riffs \u2013 Headbang Your Way to Glory! \ud83d\udca5\ud83c\udfb8 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-19T09:39:37.305318+00:00"
   }
 ]
