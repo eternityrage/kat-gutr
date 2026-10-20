@@ -1745,5 +1745,40 @@
         "reason": "YouTube has ALREADY published today (Monday, 2026-10-19). Policy: Maximum once a day on allowed days."
       }
     ]
+  },
+  {
+    "filename": "Woman_plays_electric_guitar_20261002031243_2.mp4",
+    "published_at": "2026-10-20T09:11:46.396538+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1885737372863104",
+        "comment_id": "1885737372863104_1821380332538848",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18081078806372141"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18012945329995042"
+      },
+      {
+        "status": "skipped",
+        "platform": "youtube",
+        "reason": "Today is Tuesday (2026-10-20). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Wednesday (2026-10-21)."
+      }
+    ]
   }
 ]
