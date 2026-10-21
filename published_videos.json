@@ -1850,5 +1850,43 @@
         "reason": "Today is Tuesday (2026-10-20). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Wednesday (2026-10-21)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261012140125_8.mp4",
+    "published_at": "2026-10-21T09:11:39.647039+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1082494417918304",
+        "comment_id": "1082494417918304_1739302160461266",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18436449010181278"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18118101994972648"
+      },
+      {
+        "status": "success",
+        "id": "qVEXapHn4jI",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/qVEXapHn4jI",
+        "title": "\ud83c\udfb8\u2728 Kathy Shreds Soulful Bends & Epic Melodies! \ud83c\udf1f #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-21T09:11:39.647039+00:00"
   }
 ]
