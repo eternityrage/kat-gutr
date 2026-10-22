@@ -2028,5 +2028,40 @@
         "reason": "Today is Thursday (2026-10-22). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-10-23)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20260926064258.mp4",
+    "published_at": "2026-10-22T22:59:23.668088+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "2128372838039057",
+        "comment_id": "2128372838039057_1113399731404546",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18127880698753342"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18143175388610085"
+      },
+      {
+        "status": "skipped",
+        "platform": "youtube",
+        "reason": "Today is Thursday (2026-10-22). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-10-23)."
+      }
+    ]
   }
 ]
