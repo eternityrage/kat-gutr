@@ -2063,5 +2063,43 @@
         "reason": "Today is Thursday (2026-10-22). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-10-23)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261023132007_5.mp4",
+    "published_at": "2026-10-23T09:10:13.826162+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1123696103350353",
+        "comment_id": "1123696103350353_1484968167025916",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18130537189801116"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18100177829552364"
+      },
+      {
+        "status": "success",
+        "id": "J3bIgeIr6yg",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/J3bIgeIr6yg",
+        "title": "\u26a1 Kathy Shreds Lightning Fast Fretboard Chops! \ud83c\udfb8\ud83d\udca5 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-23T09:10:13.826162+00:00"
   }
 ]
