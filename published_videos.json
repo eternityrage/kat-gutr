@@ -2101,5 +2101,40 @@
       }
     ],
     "youtube_published_at": "2026-10-23T09:10:13.826162+00:00"
+  },
+  {
+    "filename": "Woman_plays_transparent_electric\u2026_20261023132007.mp4",
+    "published_at": "2026-10-23T16:55:28.035569+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "3593760370805549",
+        "comment_id": "3593760370805549_29412356138371091",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18441788452176994"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18120231952968107"
+      },
+      {
+        "status": "skipped",
+        "platform": "youtube",
+        "reason": "YouTube has ALREADY published today (Friday, 2026-10-23). Policy: Maximum once a day on allowed days."
+      }
+    ]
   }
 ]
