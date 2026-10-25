@@ -2206,5 +2206,43 @@
         "reason": "Today is Saturday (2026-10-24). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Sunday (2026-10-25)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261023132007_4.mp4",
+    "published_at": "2026-10-25T22:18:31.208048+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1071935342511572",
+        "comment_id": "1071935342511572_1746362056450861",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17951459136057104"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18125917627928051"
+      },
+      {
+        "status": "success",
+        "id": "r_P45cYcTdo",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/r_P45cYcTdo",
+        "title": "\u26a1 Kathy Drops Stinging Pentatonic Blues\u2011Rock Bomb! \ud83c\udfb8\ud83d\udca5 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-25T22:18:31.208048+00:00"
   }
 ]
