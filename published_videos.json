@@ -2244,5 +2244,43 @@
       }
     ],
     "youtube_published_at": "2026-10-25T22:18:31.208048+00:00"
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261024210901_2.mp4",
+    "published_at": "2026-10-26T23:58:55.570703+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1511148920833699",
+        "comment_id": "1511148920833699_1579551180594319",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18126953809837634"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18109571819183204"
+      },
+      {
+        "status": "success",
+        "id": "th-5hCQwmig",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/th-5hCQwmig",
+        "title": "The Most Expressive Solo You'll Hear Today \ud83c\udfb8\ud83d\udc96 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-26T23:58:55.570703+00:00"
   }
 ]
