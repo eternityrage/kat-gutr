@@ -2317,5 +2317,43 @@
         "reason": "Today is Tuesday (2026-10-27). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Wednesday (2026-10-28)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261023132007_3.mp4",
+    "published_at": "2026-10-28T23:54:22.110183+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "2203995643825785",
+        "comment_id": "2203995643825785_1418271850465926",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18216524602357838"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "17949433011345437"
+      },
+      {
+        "status": "success",
+        "id": "9ZCUv-aDDWk",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/9ZCUv-aDDWk",
+        "title": "\ud83c\udfb8 Kathy Shreds Vintage Blues\u2011Rock with Stinging Pentatonics! \ud83d\udc2a #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-28T23:54:22.110183+00:00"
   }
 ]
