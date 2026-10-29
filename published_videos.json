@@ -2355,5 +2355,40 @@
       }
     ],
     "youtube_published_at": "2026-10-28T23:54:22.110183+00:00"
+  },
+  {
+    "filename": "Woman_playing_transparent_guitar_20261026042608.mp4",
+    "published_at": "2026-10-29T23:49:44.926576+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1829553538242767",
+        "comment_id": "1829553538242767_1114565811555778",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18136602548503620"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18032266157687213"
+      },
+      {
+        "status": "skipped",
+        "platform": "youtube",
+        "reason": "Today is Thursday (2026-10-29). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-10-30)."
+      }
+    ]
   }
 ]
