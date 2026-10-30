@@ -2390,5 +2390,43 @@
         "reason": "Today is Thursday (2026-10-29). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-10-30)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261024210901.mp4",
+    "published_at": "2026-10-30T23:29:53.649022+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1104106029072278",
+        "comment_id": "1104106029072278_1107584505360911",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17992307235107509"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18055352510806049"
+      },
+      {
+        "status": "success",
+        "id": "f1rKHFMNJvc",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/f1rKHFMNJvc",
+        "title": "\ud83c\udfb8\u2728 Kathy\u2019s Melodic Rock Bends: Soul Sings & Strings Soar \ud83d\ude80 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-10-30T23:29:53.649022+00:00"
   }
 ]
