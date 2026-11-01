@@ -2463,5 +2463,43 @@
         "reason": "Today is Saturday (2026-10-31). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Sunday (2026-11-01)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261024210901_3.mp4",
+    "published_at": "2026-11-01T23:23:50.792514+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1461183292772404",
+        "comment_id": "1461183292772404_2255503285021709",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18095751533170789"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "17896480089427344"
+      },
+      {
+        "status": "success",
+        "id": "qWMwdHVFeoA",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/qWMwdHVFeoA",
+        "title": "\ud83c\udfb8\u26a1 Kathy Hits Classic Rock Vibes, Stinging Pentatonics! \ud83e\udd18 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-01T23:23:50.792514+00:00"
   }
 ]
