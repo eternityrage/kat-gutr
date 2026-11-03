@@ -210,7 +210,7 @@ def generate_caption(video_name=None):
         url = f"https://text.pollinations.ai/{urllib.parse.quote(user_prompt)}"
         params = {
             'system': system_prompt,
-            'model': 'openai',
+            'model': 'openai/gpt-5.4-nano',
             'seed': random.randint(1, 999999)
         }
         headers = {'Authorization': f'Bearer {pollinations_key}'} if pollinations_key else {}
