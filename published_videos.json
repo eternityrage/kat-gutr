@@ -2536,5 +2536,43 @@
         "reason": "Today is Tuesday (2026-11-03). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Wednesday (2026-11-04)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_pink_electric_guitar_20261023132007.mp4",
+    "published_at": "2026-11-04T00:24:20.642249+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1791449025399219",
+        "comment_id": "1791449025399219_1849134712924155",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18596005726069318"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18130312420826002"
+      },
+      {
+        "status": "success",
+        "id": "_llwXtoEwR4",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/_llwXtoEwR4",
+        "title": "Turn the Volume UP! Monster Guitar Riff \ud83d\udd0a\ud83c\udfb8\u26a1 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-04T00:24:20.642249+00:00"
   }
 ]
