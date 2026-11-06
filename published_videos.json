@@ -2609,5 +2609,43 @@
         "reason": "Today is Thursday (2026-11-05). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-11-06)."
       }
     ]
+  },
+  {
+    "filename": "Woman_plays_electric_guitar_20261026042608.mp4",
+    "published_at": "2026-11-06T23:58:45.180036+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "2901805160199105",
+        "comment_id": "2901805160199105_1679268780237735",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18117366284155396"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18603199393065570"
+      },
+      {
+        "status": "success",
+        "id": "vAIDu0TQonE",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/vAIDu0TQonE",
+        "title": "Kathy Bending Emotion into Every String! \ud83c\udfb8\ud83c\udfb6 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-06T23:58:45.180036+00:00"
   }
 ]
