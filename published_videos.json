@@ -2682,5 +2682,43 @@
         "reason": "Today is Saturday (2026-11-07). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Sunday (2026-11-08)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261026042608_7.mp4",
+    "published_at": "2026-11-08T23:27:18.762883+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "909784578889060",
+        "comment_id": "909784578889060_2118937672057927",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17997232647024744"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18132202718486696"
+      },
+      {
+        "status": "success",
+        "id": "Q0hFXqGhK1U",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/Q0hFXqGhK1U",
+        "title": "Can You Play This Solo? Kathy Tearing It Up! \ud83c\udfb8\ud83d\udca5 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-08T23:27:18.762883+00:00"
   }
 ]
