@@ -2720,5 +2720,43 @@
       }
     ],
     "youtube_published_at": "2026-11-08T23:27:18.762883+00:00"
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_20261026042608_3.mp4",
+    "published_at": "2026-11-11T00:27:37.778106+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1149413490899740",
+        "comment_id": "1149413490899740_2264142234166815",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "17917553388541234"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18123856525970778"
+      },
+      {
+        "status": "success",
+        "id": "axgQdcuP2YA",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/axgQdcuP2YA",
+        "title": "That Blues-Rock Sweet Spot: Pure Guitar Feel \ud83c\udfb8\u2728 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-11T00:27:37.778106+00:00"
   }
 ]
