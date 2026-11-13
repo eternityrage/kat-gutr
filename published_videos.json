@@ -2793,5 +2793,43 @@
         "reason": "Today is Thursday (2026-11-12). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-11-13)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_transparent_guitar_cf5a0cb0.mp4",
+    "published_at": "2026-11-13T00:55:49.118869+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1525660492733794",
+        "comment_id": "1525660492733794_1457538555706195",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18062364818797537"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18238496497320790"
+      },
+      {
+        "status": "success",
+        "id": "Yz08sc9k040",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/Yz08sc9k040",
+        "title": "When Six Strings Sing: Kathy's Emotional Solo \ud83c\udfb8\ud83d\udd4a\ufe0f #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-13T00:55:49.118869+00:00"
   }
 ]
