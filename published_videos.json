@@ -2901,5 +2901,43 @@
         "reason": "Today is Saturday (2026-11-14). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Sunday (2026-11-15)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_41177660.mp4",
+    "published_at": "2026-11-15T23:45:56.574888+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1489602873314864",
+        "comment_id": "1489602873314864_1148334454787533",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18113355053168262"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18452086249135100"
+      },
+      {
+        "status": "success",
+        "id": "WCtU7AmhhcM",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/WCtU7AmhhcM",
+        "title": "Flying V Madness: Raw Rock & Roll Riffs! \ud83c\udfb8\ud83d\udca5 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-15T23:45:56.574888+00:00"
   }
 ]
