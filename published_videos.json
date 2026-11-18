@@ -2974,5 +2974,43 @@
         "reason": "Today is Tuesday (2026-11-17). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Wednesday (2026-11-18)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_c24ee494.mp4",
+    "published_at": "2026-11-18T02:05:44.910719+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1149336347481526",
+        "comment_id": "1149336347481526_1461586462836952",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18657293203057805"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18038677361903687"
+      },
+      {
+        "status": "success",
+        "id": "8ZJXoWa3d60",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/8ZJXoWa3d60",
+        "title": "Soulful Rock Bends with Kathy & Her Flying V \ud83c\udfb8\u2728 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-18T02:05:44.910719+00:00"
   }
 ]
