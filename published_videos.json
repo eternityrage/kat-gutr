@@ -3047,5 +3047,43 @@
         "reason": "Today is Thursday (2026-11-19). Policy: YouTube publishes ONLY on Monday, Wednesday, Friday, and Sunday. Next scheduled YouTube publish is Friday (2026-11-20)."
       }
     ]
+  },
+  {
+    "filename": "Woman_playing_electric_guitar_e9d5cf8d.mp4",
+    "published_at": "2026-11-20T01:46:09.769566+00:00",
+    "results": [
+      {
+        "status": "success",
+        "platform": "facebook",
+        "page_id": "1334980766363715",
+        "video_id": "1444690654492259",
+        "comment_id": "1444690654492259_1459832788883765",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "facebook_story",
+        "page_id": "1334980766363715",
+        "page_name": "Kathy's Guitar"
+      },
+      {
+        "status": "success",
+        "platform": "instagram",
+        "media_id": "18095337041219671"
+      },
+      {
+        "status": "success",
+        "platform": "instagram_story",
+        "media_id": "18421520818095881"
+      },
+      {
+        "status": "success",
+        "id": "LbsvjoSQar4",
+        "platform": "youtube",
+        "url": "https://youtube.com/shorts/LbsvjoSQar4",
+        "title": "Soulful Blues-Rock Licks with Kathy! \ud83c\udfb8\u2728 #Shorts"
+      }
+    ],
+    "youtube_published_at": "2026-11-20T01:46:09.769566+00:00"
   }
 ]
